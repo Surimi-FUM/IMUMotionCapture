@@ -1,8 +1,8 @@
 # IMUMotionCapture
 RaspBerry Piで制御したIMU(慣性計測ユニット)を用いたモーションキャプチャー  
 
-![XYZ](https://user-images.githubusercontent.com/116449282/229144210-3820c070-64a9-44dd-8533-71ee97f48457.png)
-![Pos](https://user-images.githubusercontent.com/116449282/229144160-7435d4f9-1419-40a2-9b9d-fdec588155d4.png)
+![XYZ](https://user-images.githubusercontent.com/116449282/229971007-50d152fa-2076-4271-8809-b475bdd12929.png)  
+![Pos](https://user-images.githubusercontent.com/116449282/229970482-96e6f8eb-e3a3-4a61-a018-427c9cf4966c.png)  
 
 IMUの加速度センサからセンサ値を取得し、ノイズ除去のフィルタ処理を施して位置推定を行った。  
 カットすべき周波数の特定のために、数秒間記録したデータに対して高速フーリエ変換を用いて周波数解析を行った。  
